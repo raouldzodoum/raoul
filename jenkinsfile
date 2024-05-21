@@ -8,7 +8,7 @@ pipeline {
                     $class: 'GITSCM',
                     branches: [[name: '*/master']],
                     extensions: [],
-                    userRemoteConfigs: [[url: 'https://github.com/raouldzodoum/first_project.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/raouldzodoum/raoul.git']]
                 ])
             }
         }
